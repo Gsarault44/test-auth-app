@@ -1,0 +1,41 @@
+.modal {
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 2px 2px #ccc;
+  margin: 0 auto;
+
+  .modal-heading {
+    text-align: center;
+  }
+}
+
+.form-wrapper {
+  width: 95%;
+  max-width: 300px;
+  margin: 0 auto;
+
+  input[type="text"] {
+    appearance: none;
+    padding: 8px 0;
+    margin: 4px;
+    border: 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  input[type="password"] {
+    appearance: none;
+    padding: 8px 0;
+    margin: 4px;
+    border: 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  button[type="submit"] {
+    display: block;
+    margin: 0 auto; 
+    appearance: none;
+    border: 0;
+    background: orange;
+    color: black;
+  }
+}
